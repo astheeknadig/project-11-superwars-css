@@ -1,4 +1,28 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.score{
+  /* width: 240px; */
+  text-align: center;
+  margin: 0px 80px 0px 80px;
+  padding: 0 30px 0 30px;
+  /* flex-grow: 2; */
+} 
+
+.flex-container > div{
+  box-sizing: content-box;
+  width: 125px;
+}
+
+.flex-container > .character{
+background-color: white;
+margin: 10px;
+padding: 20px;
+font-size: 20px;
+text-align: center;
+border: 1px black solid;
 }
